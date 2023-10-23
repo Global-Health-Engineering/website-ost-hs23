@@ -7,17 +7,59 @@
     "text": "2 to 3 sentences."
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
+    "objectID": "index.html#heading-a",
+    "href": "index.html#heading-a",
     "title": "About",
-    "section": "Education",
-    "text": "Education"
+    "section": "Heading A",
+    "text": "Heading A"
   },
   {
-    "objectID": "index.html#employment",
-    "href": "index.html#employment",
+    "objectID": "index.html#heading-b",
+    "href": "index.html#heading-b",
     "title": "About",
-    "section": "Employment",
-    "text": "Employment"
+    "section": "Heading B",
+    "text": "Heading B"
+  },
+  {
+    "objectID": "posts/2023-10-24-research-project/index.html",
+    "href": "posts/2023-10-24-research-project/index.html",
+    "title": "Get Started with Blogging",
+    "section": "",
+    "text": "This is an example post in a Quarto blog. Welcome!\nIt has a an image included, which will be the thumbnail in the overview. Without an image in the YAML header the first image of the blog post would be used.\nThis post is stored as a draft (draft: true) which results in the post not be included in the listing, site map, or site search.\nTo publish the post when it is complete, change the value for draft to draft: true and then render it.\nAdd a citation (Knuth 1984).\n\n\n\n\nReferences\n\nKnuth, D. E. 1984. “Literate Programming.” The Computer Journal 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "slides/2023-10-24-ost-hs23-talk/index.html#data",
+    "href": "slides/2023-10-24-ost-hs23-talk/index.html#data",
+    "title": "Hello, Penguins!",
+    "section": "Data",
+    "text": "Data\nFor this analysis we’ll use the penguins dataset from the palmerpenguins R package.\n\nlibrary(tidyverse)\nlibrary(ggthemes)\nlibrary(palmerpenguins)\nlibrary(gt)"
+  },
+  {
+    "objectID": "slides/2023-10-24-ost-hs23-talk/index.html#species",
+    "href": "slides/2023-10-24-ost-hs23-talk/index.html#species",
+    "title": "Hello, Penguins!",
+    "section": "Species",
+    "text": "Species\nThe figure below is a scatterplot of species of penguins.\n\n\nggplot(penguins,\n       aes(x = bill_length_mm, \n           y = bill_depth_mm,\n           color = species,\n           shape = species)) +\n  geom_point() +\n  scale_color_colorblind() +\n  labs(x = \"Bill length (mm)\", y = \"Bill depth (mm)\") +\n  theme_minimal()"
+  },
+  {
+    "objectID": "slides/2023-10-24-ost-hs23-talk/index.html#penguins",
+    "href": "slides/2023-10-24-ost-hs23-talk/index.html#penguins",
+    "title": "Hello, Penguins!",
+    "section": "Penguins",
+    "text": "Penguins\nThe table below shows the first 10 penguins from the dataset.\n\npenguins |&gt;\n  slice_head(n = 10) |&gt;\n  select(species, island, bill_length_mm, bill_depth_mm) |&gt;\n  gt()\n\n\n\n\n\n  \n    \n    \n      species\n      island\n      bill_length_mm\n      bill_depth_mm\n    \n  \n  \n    Adelie\nTorgersen\n39.1\n18.7\n    Adelie\nTorgersen\n39.5\n17.4\n    Adelie\nTorgersen\n40.3\n18.0\n    Adelie\nTorgersen\nNA\nNA\n    Adelie\nTorgersen\n36.7\n19.3\n    Adelie\nTorgersen\n39.3\n20.6\n    Adelie\nTorgersen\n38.9\n17.8\n    Adelie\nTorgersen\n39.2\n19.6\n    Adelie\nTorgersen\n34.1\n18.1\n    Adelie\nTorgersen\n42.0\n20.2\n  \n  \n  \n\n\n\n\n\n\nPoint 1\nPoint 2\nPoint 3"
+  },
+  {
+    "objectID": "slides/2023-10-24-ost-hs23-talk/index.html#modeling",
+    "href": "slides/2023-10-24-ost-hs23-talk/index.html#modeling",
+    "title": "Hello, Penguins!",
+    "section": "Modeling",
+    "text": "Modeling\n\ninfo about the model\ntext about results\ncomments about shortcomings"
+  },
+  {
+    "objectID": "slides/2023-10-24-ost-hs23-talk/index.html#bibliography",
+    "href": "slides/2023-10-24-ost-hs23-talk/index.html#bibliography",
+    "title": "Hello, Penguins!",
+    "section": "Bibliography",
+    "text": "Bibliography\n\nAdd exported .bib file to root folder (project)\nAdd YAML key and value: bibliography: \"../../GH-USERNAME.bib\"\nCite Knuth (1984) in-text\nAdd References Section as the final slide"
   }
 ]

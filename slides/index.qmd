@@ -1,0 +1,15 @@
+---
+title: Slides
+subtitle:
+    A collection of my slides and talks is listed here.
+listing:
+  sort: "date desc"
+  contents: "*/index.qmd"
+  type: table
+  fields: [date, title, description]
+  sort-ui: false
+  filter-ui: false
+  feed: true
+page-layout: full
+search: false
+---

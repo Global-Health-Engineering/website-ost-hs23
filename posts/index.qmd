@@ -1,0 +1,15 @@
+---
+title: research blog
+subtitle:
+    Here I share information about my PhD project.
+listing:
+  sort: "date desc"
+  contents: "*/index.qmd"
+  type: default
+  fields: [image, date, title, author, description, reading-time]
+  sort-ui: false
+  filter-ui: false
+  feed: true
+page-layout: full
+search: false
+---

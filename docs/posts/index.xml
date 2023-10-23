@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Lars Schöbitz</title>
+<link>https://rainbow-train.github.io/website/posts/index.html</link>
+<atom:link href="https://rainbow-train.github.io/website/posts/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Wed, 21 Jun 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Get Started with Blogging</title>
+  <dc:creator>Lars Schöbitz</dc:creator>
+  <link>https://rainbow-train.github.io/website/posts/2023-10-24-research-project/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>This is an example post in a Quarto blog. Welcome!</p>
+<p>It has a an image included, which will be the thumbnail in the overview. Without an image in the YAML header the first image of the blog post would be used.</p>
+<p>This post is stored as a draft (<code>draft: true</code>) which results in the post not be included in the listing, site map, or site search.</p>
+<p>To publish the post when it is complete, change the value for draft to <code>draft: true</code> and then render it.</p>
+<p>Add a citation <span class="citation" data-cites="knuth1984literate">(Knuth 1984)</span>.</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-knuth1984literate" class="csl-entry">
+Knuth, D. E. 1984. <span>“Literate <span>Programming</span>.”</span> <em>The Computer Journal</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
+</div>
+</div></section></div> ]]></description>
+  <guid>https://rainbow-train.github.io/website/posts/2023-10-24-research-project/index.html</guid>
+  <pubDate>Wed, 21 Jun 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://rainbow-train.github.io/website/posts/2023-10-24-research-project/thumbnail.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

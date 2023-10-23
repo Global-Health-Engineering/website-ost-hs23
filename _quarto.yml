@@ -3,11 +3,16 @@ project:
   output-dir: docs
 
 website:
-  title: "website-template"
+  title: "Lars Schöbitz"
+  site-url: "https://rainbow-train.github.io/website/"
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - href: slides/
+        text: Slides
+      - href: posts/
+        text: Blog
 
 format:
   html:
