@@ -1,9 +1,15 @@
 ---
 title: "About"
+subtitle: "Lars Schöbitz"
+image: norman-tsui-PoF0kgQm9hE-unsplash.jpg
+about:
+  template: jolla
+html:
+  toc: false
 ---
 
-About this site
+2 to 3 sentences.
 
-```{r}
-1 + 1
-```
+## Education
+
+## Employment

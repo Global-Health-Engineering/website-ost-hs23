@@ -11,6 +11,20 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "2 to 3 sentences."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "about.html#employment",
+    "href": "about.html#employment",
+    "title": "About",
+    "section": "Employment",
+    "text": "Employment"
   }
 ]
